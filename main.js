@@ -2,7 +2,8 @@ var bubble = require('./bubble'),
 selection = require('./selection'),
 quick = require('./quick'),
 heap = require('./heap'),
-count = 20000,
+insert = require('./insert'),
+count = 10000,
 ret, t, t2;
 
 
@@ -47,3 +48,12 @@ t = new Date();
 heap(clone(ret));
 t2 = new Date();
 console.log('时间:' + (t2.getTime() - t.getTime()));
+
+console.log('插入排序');
+t = new Date();
+insert(clone(ret));
+t2 = new Date();
+console.log('时间:' + (t2.getTime() - t.getTime()));
+
+
+
