@@ -1,4 +1,4 @@
-
+// 交换
 function swap(list, i, j) {
     var temp = list[i];
 
@@ -26,6 +26,7 @@ function maxHeapify(list, index, len) {
 }
 
 
+// 构建最大堆
 function buildMaxHeap(list) {
     // 堆中最后一个元素的父元素
     var len = list.length, 
@@ -37,6 +38,7 @@ function buildMaxHeap(list) {
 }
 
 
+// 堆排序
 module.exports = function(list) {
     var start = len = list.length;
 

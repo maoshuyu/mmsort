@@ -3,7 +3,7 @@ selection = require('./selection'),
 quick = require('./quick'),
 heap = require('./heap'),
 insert = require('./insert'),
-count = 10000,
+count = 100000,
 ret, t, t2;
 
 

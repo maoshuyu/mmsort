@@ -1,4 +1,5 @@
-module.exports = function(list) {
+// 选择排序
+var selection = module.exports = function(list) {
     var i, j, tmp, len = list.length;
 
     for (i = 0; i < len - 1; i++) {
@@ -14,3 +15,6 @@ module.exports = function(list) {
     return list;
 
 };
+
+
+module.exports = selection; 
